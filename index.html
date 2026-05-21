@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso 1</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>Curso Práctico de HTML</h1>
+        <!-- <h1 id="titulo">Curso Práctico de HTML</h1> -->
+        <p>Ejemplo completo de etiquetas HTML básicas</p>
+
+        <nav>
+            <a href="#inicio">Inicio</a> |
+            <a href="#listas">Listas</a> |
+            <a href="#formularios">Formularios</a> |
+            <a href="#multimedia">Multimedia</a>
+        </nav>
+    </header>
+
+    <hr /> <!-- Crea una linea horizontal -->
+
+    <!-- SECCIÓN PRINCIPAL -->
+    <main>
+
+        <!-- TEXTO -->
+        <section id="inicio">
+            <h2>Etiquetas de Texto</h2>
+
+            <h1>Título h1</h1>
+            <h2>Título h2</h2>
+            <h3>Título h3</h3>
+            <h4>Título h4</h4>
+            <h5>Título h5</h5>
+            <h6>Título h6</h6>
+
+            <p>
+                Este es un párrafo con texto <strong>importante</strong>,
+                texto <em>en cursiva</em>,
+                texto <mark>resaltado</mark>,
+                texto <small>pequeño</small>,
+                texto <del>eliminado</del>,
+                y texto <u>subrayado</u>.
+            </p>
+
+            <blockquote>
+                "La práctica hace al programador."
+            </blockquote>
+
+            <pre>
+function hola() {
+  console.log("Hola mundo");
+}
+      </pre>
+
+            <code>
+        console.log("Código HTML");
+      </code>
+
+            <br /><!-- saltos de linea entre textos -->
+            <br />
+        </section>
+
+        <hr />
+
+        <!-- ENLACES -->
+        <section>
+            <h2>Enlaces</h2>
+
+            <a href="https://google.com" target="_blank">
+                Ir a Google
+            </a> <!-- etiquetas de referencia o enlace -->
+
+            <br /><br />
+
+            <a href="mailto:softcraft2024@gmail.com">
+                Enviar correo
+            </a>
+        </section>
+
+        <hr />
+
+        <!-- IMÁGENES -->
+        <section>
+            <h2>Imágenes</h2>
+
+            <img src="https://picsum.photos/300" alt="Imagen de ejemplo" width="300" />
+        </section>
+
+        <hr />
+
+        <!-- LISTAS -->
+        <section id="listas">
+            <h2>Listas</h2>
+
+            <h3>Lista Ordenada</h3>
+            <ol><!-- Enumera las listas -->
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+
+            <h3>Lista Desordenada</h3>
+            <ul> <!-- Los pone con un punto todas las listas  -->
+                <li>React</li>
+                <li>Vue</li>
+                <li>Angular</li>
+            </ul>
+
+        </section>
+
+        <hr />
+
+        <!-- TABLAS -->
+        <section>
+            <h2>Tablas</h2>
+
+            <table border="1"> <!-- “encabezado de la tabla” aqui van todos los titulos de la tabla -->
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Ciudad</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Doryan</td>
+                        <td>20</td>
+                        <td>Potosino</td>
+                    </tr>
+
+                    <tr>
+                        <td>María</td>
+                        <td>25</td>
+                        <td>Cochabamba</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr />
+
+
+        <hr /> <!-- Crea una linea horizontal -->
+
+    </main>
+
+    <hr />
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>
+            Curso HTML Básico - 2026
+        </p>
+    </footer>
+
+    <button id="btnSaludo">Mostrar Alerta</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
